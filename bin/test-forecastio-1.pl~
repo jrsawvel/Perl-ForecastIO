@@ -13,7 +13,7 @@ use ForecastIO;
 print "Executing program: $0\n\n";
 
 #### my $api_key = "<api key>";
-my $api_key = "cd50a948f24600c7cc2986548ee741f1";
+my $api_key = "<api key>";
 # Toledo, Ohio
 my $latitude = "41.665556";
 my $longitude = "-83.575278";
@@ -22,8 +22,7 @@ my $forecast = ForecastIO->new($api_key, $latitude, $longitude);
 
 # change url for testing with a downloaded, saved copy of JSON data
 # $forecast->api_url("http://testurl/saveddata.json");
-$forecast->api_url("http://toledotalk.com/forecastio-json-7.txt");
-print "Testing with saved Toledo, OH data set for July 10, 2013\n\n";
+# print "Testing with saved Toledo, OH data set for July 10, 2013\n\n";
 
 # get old data
 # $forecast->api_url( $forecast->api_url . ",2012-07-11T12:00:00-0400" );
