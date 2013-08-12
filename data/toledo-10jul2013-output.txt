@@ -1,0 +1,293 @@
+Executing program: ./test-forecastio-1.pl
+
+Testing with saved Toledo, OH data set for July 10, 2013
+
+Current Weather Conditions
+         date and time = 2013-07-10T17:57:36Z
+               summary = Light Rain
+                  icon = rain
+              air temp = 86
+             dew point = 75
+         wind directon = WSW
+            wind speed = 9 mph
+              pressure = 29.81 in. 
+              humidity = 70% 
+                 ozone = 296.55 Dobson units
+           precip prob = 100% 
+           cloud cover = 40%
+      cloud cover desc = partly cloudy
+      precip intensity = 0.046
+ precip intensity desc = light
+precip intensity color = #888888;
+           precip type = rain
+            visibility = 9.84 miles
+
+Current Alerts
+alert =       Severe Thunderstorm Warning for Lucas, OH
+uri =         http://alerts.weather.gov/cap/wwacapget.php?x=OH124F0BD43D18.SevereThunderstormWarning.124F0BD477B0OH.CLESVRCLE.94d2cdc126711e3d8a4d25bf9d920c33
+expires =     2013-07-10T19:00:00Z
+description = 
+alert =       Special Weather Statement for Lucas, OH
+uri =         http://alerts.weather.gov/cap/wwacapget.php?x=OH124F0BD416D0.SpecialWeatherStatement.124F0BD4567COH.CLESPSCLE.18b0c3745850ce1e2e5092633c74de85
+expires =     2013-07-10T18:15:00Z
+description = 
+alert =       Severe Thunderstorm Watch for Lucas, OH
+uri =         http://alerts.weather.gov/cap/wwacapget.php?x=OH124F0BD4102C.SevereThunderstormWatch.124F0BE0D3C0OH.WNSWOU6.9fb1e08bc4a237e4b08452c143c88a14
+expires =     2013-07-11T00:00:00Z
+description = 
+alert =       Flash Flood Watch for Lucas, OH
+uri =         http://alerts.weather.gov/cap/wwacapget.php?x=OH124F0BD39908.FlashFloodWatch.124F0BE0D3C0OH.CLEFFACLE.51eea1ae1eb84a752cb512948a3f3bf6
+expires =     2013-07-11T00:00:00Z
+description = 
+
+Hourly Forecast - Next 48 Hours
+2013-07-10T17:00:00Z : icon =  rain : temp = 86 : precip type =  rain : pressure = 29.81 in.  : wind direction = WSW : wind speed = 8 mph 
+2013-07-10T18:00:00Z : icon =  rain : temp = 86 : precip type =  rain : pressure = 29.81 in.  : wind direction = WSW : wind speed = 9 mph 
+2013-07-10T19:00:00Z : icon =  rain : temp = 85 : precip type =  rain : pressure = 29.81 in.  : wind direction = W : wind speed = 10 mph 
+2013-07-10T20:00:00Z : icon =  rain : temp = 84 : precip type =  rain : pressure = 29.81 in.  : wind direction = W : wind speed = 11 mph 
+2013-07-10T21:00:00Z : icon =  rain : temp = 82 : precip type =  rain : pressure = 29.81 in.  : wind direction = W : wind speed = 11 mph 
+2013-07-10T22:00:00Z : icon =  partly-cloudy-day : temp = 81 : precip type =  rain : pressure = 29.81 in.  : wind direction = WNW : wind speed = 12 mph 
+2013-07-10T23:00:00Z : icon =  partly-cloudy-day : temp = 80 : precip type =  rain : pressure = 29.82 in.  : wind direction = WNW : wind speed = 11 mph 
+2013-07-11T00:00:00Z : icon =  partly-cloudy-day : temp = 78 : precip type =  rain : pressure = 29.84 in.  : wind direction = NW : wind speed = 11 mph 
+2013-07-11T01:00:00Z : icon =  clear-day : temp = 76 : precip type =  rain : pressure = 29.86 in.  : wind direction = NW : wind speed = 9 mph 
+2013-07-11T02:00:00Z : icon =  clear-night : temp = 73 : precip type =  rain : pressure = 29.88 in.  : wind direction = NW : wind speed = 8 mph 
+2013-07-11T03:00:00Z : icon =  clear-night : temp = 71 : precip type =  rain : pressure = 29.90 in.  : wind direction = NW : wind speed = 8 mph 
+2013-07-11T04:00:00Z : icon =  clear-night : temp = 69 : precip type =  undef : pressure = 29.91 in.  : wind direction = NW : wind speed = 7 mph 
+2013-07-11T05:00:00Z : icon =  clear-night : temp = 68 : precip type =  undef : pressure = 29.92 in.  : wind direction = NNW : wind speed = 7 mph 
+2013-07-11T06:00:00Z : icon =  clear-night : temp = 66 : precip type =  undef : pressure = 29.93 in.  : wind direction = NNW : wind speed = 7 mph 
+2013-07-11T07:00:00Z : icon =  clear-night : temp = 64 : precip type =  undef : pressure = 29.95 in.  : wind direction = NNW : wind speed = 7 mph 
+2013-07-11T08:00:00Z : icon =  clear-night : temp = 63 : precip type =  undef : pressure = 29.96 in.  : wind direction = NNW : wind speed = 6 mph 
+2013-07-11T09:00:00Z : icon =  clear-night : temp = 62 : precip type =  undef : pressure = 29.97 in.  : wind direction = NNW : wind speed = 6 mph 
+2013-07-11T10:00:00Z : icon =  clear-night : temp = 61 : precip type =  undef : pressure = 29.98 in.  : wind direction = NNW : wind speed = 6 mph 
+2013-07-11T11:00:00Z : icon =  clear-day : temp = 62 : precip type =  undef : pressure = 30.00 in.  : wind direction = NNW : wind speed = 6 mph 
+2013-07-11T12:00:00Z : icon =  clear-day : temp = 65 : precip type =  undef : pressure = 30.00 in.  : wind direction = NNW : wind speed = 7 mph 
+2013-07-11T13:00:00Z : icon =  clear-day : temp = 67 : precip type =  undef : pressure = 30.01 in.  : wind direction = NNW : wind speed = 8 mph 
+2013-07-11T14:00:00Z : icon =  clear-day : temp = 70 : precip type =  undef : pressure = 30.02 in.  : wind direction = N : wind speed = 8 mph 
+2013-07-11T15:00:00Z : icon =  clear-day : temp = 72 : precip type =  undef : pressure = 30.02 in.  : wind direction = N : wind speed = 9 mph 
+2013-07-11T16:00:00Z : icon =  clear-day : temp = 74 : precip type =  undef : pressure = 30.02 in.  : wind direction = N : wind speed = 10 mph 
+2013-07-11T17:00:00Z : icon =  clear-day : temp = 76 : precip type =  undef : pressure = 30.02 in.  : wind direction = N : wind speed = 9 mph 
+2013-07-11T18:00:00Z : icon =  clear-day : temp = 77 : precip type =  undef : pressure = 30.01 in.  : wind direction = N : wind speed = 10 mph 
+2013-07-11T19:00:00Z : icon =  clear-day : temp = 78 : precip type =  rain : pressure = 30.01 in.  : wind direction = N : wind speed = 10 mph 
+2013-07-11T20:00:00Z : icon =  clear-day : temp = 78 : precip type =  rain : pressure = 30.00 in.  : wind direction = NNW : wind speed = 10 mph 
+2013-07-11T21:00:00Z : icon =  clear-day : temp = 78 : precip type =  rain : pressure = 30.00 in.  : wind direction = NNW : wind speed = 9 mph 
+2013-07-11T22:00:00Z : icon =  clear-day : temp = 78 : precip type =  rain : pressure = 30.00 in.  : wind direction = N : wind speed = 8 mph 
+2013-07-11T23:00:00Z : icon =  clear-day : temp = 76 : precip type =  rain : pressure = 29.99 in.  : wind direction = N : wind speed = 7 mph 
+2013-07-12T00:00:00Z : icon =  partly-cloudy-day : temp = 75 : precip type =  rain : pressure = 30.00 in.  : wind direction = NNE : wind speed = 7 mph 
+2013-07-12T01:00:00Z : icon =  partly-cloudy-day : temp = 72 : precip type =  rain : pressure = 30.02 in.  : wind direction = NNE : wind speed = 8 mph 
+2013-07-12T02:00:00Z : icon =  partly-cloudy-night : temp = 70 : precip type =  undef : pressure = 30.04 in.  : wind direction = NNE : wind speed = 10 mph 
+2013-07-12T03:00:00Z : icon =  partly-cloudy-night : temp = 68 : precip type =  undef : pressure = 30.06 in.  : wind direction = NE : wind speed = 10 mph 
+2013-07-12T04:00:00Z : icon =  partly-cloudy-night : temp = 66 : precip type =  undef : pressure = 30.07 in.  : wind direction = NE : wind speed = 10 mph 
+2013-07-12T05:00:00Z : icon =  partly-cloudy-night : temp = 64 : precip type =  undef : pressure = 30.08 in.  : wind direction = NNE : wind speed = 9 mph 
+2013-07-12T06:00:00Z : icon =  partly-cloudy-night : temp = 62 : precip type =  undef : pressure = 30.10 in.  : wind direction = NNE : wind speed = 8 mph 
+2013-07-12T07:00:00Z : icon =  clear-night : temp = 61 : precip type =  undef : pressure = 30.11 in.  : wind direction = NNE : wind speed = 8 mph 
+2013-07-12T08:00:00Z : icon =  clear-night : temp = 59 : precip type =  undef : pressure = 30.11 in.  : wind direction = NNE : wind speed = 7 mph 
+2013-07-12T09:00:00Z : icon =  clear-night : temp = 59 : precip type =  undef : pressure = 30.12 in.  : wind direction = NNE : wind speed = 7 mph 
+2013-07-12T10:00:00Z : icon =  clear-night : temp = 59 : precip type =  undef : pressure = 30.13 in.  : wind direction = N : wind speed = 7 mph 
+2013-07-12T11:00:00Z : icon =  clear-day : temp = 61 : precip type =  undef : pressure = 30.14 in.  : wind direction = N : wind speed = 7 mph 
+2013-07-12T12:00:00Z : icon =  clear-day : temp = 63 : precip type =  undef : pressure = 30.15 in.  : wind direction = N : wind speed = 7 mph 
+2013-07-12T13:00:00Z : icon =  clear-day : temp = 66 : precip type =  undef : pressure = 30.16 in.  : wind direction = NNE : wind speed = 8 mph 
+2013-07-12T14:00:00Z : icon =  clear-day : temp = 69 : precip type =  undef : pressure = 30.16 in.  : wind direction = NNE : wind speed = 9 mph 
+2013-07-12T15:00:00Z : icon =  clear-day : temp = 72 : precip type =  undef : pressure = 30.16 in.  : wind direction = NNE : wind speed = 9 mph 
+2013-07-12T16:00:00Z : icon =  clear-day : temp = 75 : precip type =  undef : pressure = 30.16 in.  : wind direction = NE : wind speed = 9 mph 
+2013-07-12T17:00:00Z : icon =  clear-day : temp = 77 : precip type =  undef : pressure = 30.15 in.  : wind direction = NE : wind speed = 10 mph 
+
+Minute by Minute Forecast - Next Hour
+2013-07-10T17:57:00Z : 100% chance  : light : rain
+2013-07-10T17:58:00Z : 100% chance  : light : rain
+2013-07-10T17:59:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:00:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:01:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:02:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:03:00Z : 100% chance  : light : rain
+2013-07-10T18:04:00Z : 100% chance  : light : rain
+2013-07-10T18:05:00Z : 100% chance  : light : rain
+2013-07-10T18:06:00Z : 100% chance  : light : rain
+2013-07-10T18:07:00Z : 100% chance  : light : rain
+2013-07-10T18:08:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:09:00Z : 100% chance  : light to moderate : rain
+2013-07-10T18:10:00Z : 100% chance  : moderate : rain
+2013-07-10T18:11:00Z : 100% chance  : moderate : rain
+2013-07-10T18:12:00Z : 100% chance  : moderate : rain
+2013-07-10T18:13:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:14:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:15:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:16:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:17:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:18:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:19:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:20:00Z : 100% chance  : moderate to heavy : rain
+2013-07-10T18:21:00Z : 100% chance  : heavy : rain
+2013-07-10T18:22:00Z : 100% chance  : heavy : rain
+2013-07-10T18:23:00Z : 100% chance  : heavy : rain
+2013-07-10T18:24:00Z : 100% chance  : heavy : rain
+2013-07-10T18:25:00Z : 100% chance  : heavy : rain
+2013-07-10T18:26:00Z : 100% chance  : heavy : rain
+2013-07-10T18:27:00Z : 100% chance  : heavy : rain
+2013-07-10T18:28:00Z : 99% chance  : heavy : rain
+2013-07-10T18:29:00Z : 99% chance  : heavy : rain
+2013-07-10T18:30:00Z : 99% chance  : heavy : rain
+2013-07-10T18:31:00Z : 99% chance  : heavy : rain
+2013-07-10T18:32:00Z : 99% chance  : heavy : rain
+2013-07-10T18:33:00Z : 99% chance  : heavy : rain
+2013-07-10T18:34:00Z : 99% chance  : heavy : rain
+2013-07-10T18:35:00Z : 98% chance  : heavy : rain
+2013-07-10T18:36:00Z : 98% chance  : heavy : rain
+2013-07-10T18:37:00Z : 97% chance  : heavy : rain
+2013-07-10T18:38:00Z : 96% chance  : heavy : rain
+2013-07-10T18:39:00Z : 96% chance  : heavy : rain
+2013-07-10T18:40:00Z : 95% chance  : heavy : rain
+2013-07-10T18:41:00Z : 94% chance  : heavy : rain
+2013-07-10T18:42:00Z : 94% chance  : moderate to heavy : rain
+2013-07-10T18:43:00Z : 93% chance  : moderate to heavy : rain
+2013-07-10T18:44:00Z : 92% chance  : moderate to heavy : rain
+2013-07-10T18:45:00Z : 92% chance  : moderate to heavy : rain
+2013-07-10T18:46:00Z : 91% chance  : moderate to heavy : rain
+2013-07-10T18:47:00Z : 90% chance  : moderate to heavy : rain
+2013-07-10T18:48:00Z : 90% chance  : moderate to heavy : rain
+2013-07-10T18:49:00Z : 89% chance  : moderate to heavy : rain
+2013-07-10T18:50:00Z : 88% chance  : moderate to heavy : rain
+2013-07-10T18:51:00Z : 87% chance  : moderate to heavy : rain
+2013-07-10T18:52:00Z : 86% chance  : moderate : rain
+2013-07-10T18:53:00Z : 85% chance  : moderate : rain
+2013-07-10T18:54:00Z : 85% chance  : moderate : rain
+2013-07-10T18:55:00Z : 84% chance  : moderate : rain
+2013-07-10T18:56:00Z : 83% chance  : moderate : rain
+2013-07-10T18:57:00Z : 82% chance  : moderate : rain
+
+Daily Forecast - Next 7 Days
+                      date = 2013-07-10T04:00:00Z
+                      icon = rain
+                   sunrise = 2013-07-10T10:10:30Z
+                    sunset = 2013-07-11T01:11:05Z
+          cloud cover desc = partly cloudy
+               precip type = rain
+      max precip intensity = moderate
+ max precip intensity time = 2013-07-10T19:00:00Z
+       precip accumulation = undef
+                  low temp = 71
+             low temp time = 2013-07-11T03:00:00Z
+                 high temp = 86
+            high temp time = 2013-07-10T17:00:00Z
+                wind speed = 9 mph
+            wind direction = WSW
+
+                      date = 2013-07-11T04:00:00Z
+                      icon = partly-cloudy-day
+                   sunrise = 2013-07-11T10:11:14Z
+                    sunset = 2013-07-12T01:10:37Z
+          cloud cover desc = mostly clear
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 61
+             low temp time = 2013-07-11T10:00:00Z
+                 high temp = 78
+            high temp time = 2013-07-11T20:00:00Z
+                wind speed = 8 mph
+            wind direction = N
+
+                      date = 2013-07-12T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-12T10:11:59Z
+                    sunset = 2013-07-13T01:10:07Z
+          cloud cover desc = clear
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 59
+             low temp time = 2013-07-12T09:00:00Z
+                 high temp = 79
+            high temp time = 2013-07-12T20:00:00Z
+                wind speed = 8 mph
+            wind direction = NE
+
+                      date = 2013-07-13T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-13T10:12:45Z
+                    sunset = 2013-07-14T01:09:34Z
+          cloud cover desc = clear
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 59
+             low temp time = 2013-07-13T08:00:00Z
+                 high temp = 82
+            high temp time = 2013-07-13T19:00:00Z
+                wind speed = 5 mph
+            wind direction = ENE
+
+                      date = 2013-07-14T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-14T10:13:32Z
+                    sunset = 2013-07-15T01:09:00Z
+          cloud cover desc = undef
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 61
+             low temp time = 2013-07-14T07:00:00Z
+                 high temp = 84
+            high temp time = 2013-07-14T19:00:00Z
+                wind speed = 4 mph
+            wind direction = E
+
+                      date = 2013-07-15T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-15T10:14:21Z
+                    sunset = 2013-07-16T01:08:24Z
+          cloud cover desc = undef
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 64
+             low temp time = 2013-07-15T07:00:00Z
+                 high temp = 85
+            high temp time = 2013-07-15T19:00:00Z
+                wind speed = 4 mph
+            wind direction = ENE
+
+                      date = 2013-07-16T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-16T10:15:10Z
+                    sunset = 2013-07-17T01:07:46Z
+          cloud cover desc = undef
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 67
+             low temp time = 2013-07-16T07:00:00Z
+                 high temp = 88
+            high temp time = 2013-07-16T19:00:00Z
+                wind speed = 3 mph
+            wind direction = NNE
+
+                      date = 2013-07-17T04:00:00Z
+                      icon = clear-day
+                   sunrise = 2013-07-17T10:16:00Z
+                    sunset = 2013-07-18T01:07:07Z
+          cloud cover desc = undef
+               precip type = undef
+      max precip intensity = 0
+ max precip intensity time = undef
+       precip accumulation = undef
+                  low temp = 70
+             low temp time = 2013-07-17T07:00:00Z
+                 high temp = 89
+            high temp time = 2013-07-17T19:00:00Z
+                wind speed = 3 mph
+            wind direction = W
+
+
+High Level Info
+         time zone offset = -4
+                 timezone = America/New_York
+           hourly summary = Rain until this evening.
+            daily summary = Rain today; temperatures rising to 88° on Tuesday.
+         minutely summary = Rain for the hour.
+         Current date time: 2013-08-12T12:46:20Z
