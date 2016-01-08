@@ -6,7 +6,7 @@ Related: [forecast.io developer API info](https://developer.forecast.io). From t
 
 > *"The easiest, most advanced, weather API on the web. The same API that powers Forecast.io and Dark Sky for iOS can provide accurate short­term and long­term weather predictions to your business, application, or crazy idea."*
 
-A working example that uses this Perl module can be found at [Toledo Weather](http://toledotalk.com/weather). This weather Web app uses jQuery mobile on the client side. Several Perl scripts execute at different intervals in cron that fetch RSS, custom XML, and HTML files from the National Weather Service to provide the data for display. The [forecast.io section](http://toledotalk.com/weather/html/forecastio.html) of this Web app uses a small part of this Perl module. Code for the entire Toledo weather Web app exists on GitHub at [ToledoWX](https://github.com/jrsawvel/ToledoWX).
+A working example that uses this Perl module can be found at [ToledoWeather.info](http://toledoweather.info). This weather Web app uses jQuery mobile on the client side. Several Perl scripts execute at different intervals in cron that fetch RSS, custom XML, and HTML files from the National Weather Service to provide the data for display. The [forecast.io section](http://toledoweather.info/forecastio.html) of this Web app uses a small part of this Perl module. Code for the entire Toledo weather Web app exists on GitHub at [ToledoWX](https://github.com/jrsawvel/ToledoWX).
 
 
 
@@ -298,7 +298,7 @@ Play around with the precipitation intensity subroutines to produce text values 
 
 During the summer of 2013, I think the text-based intensity values returned in this module match my observations in Toledo, Ohio. 
 
-In my [ToledoWX](http://toledotalk.com/weather) weather Web app, I access these precip calc intensity subroutines for the [minute by minute forecasts](http://toledotalk.com/weather/html/forecastio.html) for the next hour for three locations in the Toledo area.  When a storm moves through, it's interesting to view the minutely forecasts for each location and note which areas are forecast to receive heavier rainfall. From my observations, the minutely forecasts and precip intensities are quite accurate. It's good information. 
+In my [ToledoWX](http://toledoweather.info) weather Web app, I access these precip calc intensity subroutines for the [minute by minute forecasts](http://toledoweather.info/forecastio.html) for the next hour for three locations in the Toledo area.  When a storm moves through, it's interesting to view the minutely forecasts for each location and note which areas are forecast to receive heavier rainfall. From my observations, the minutely forecasts and precip intensities are quite accurate. It's good information. 
 
 
 
